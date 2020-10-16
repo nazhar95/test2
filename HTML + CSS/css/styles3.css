@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+}
+
+/* Section Divider */
+.section-divider {
+	height: 480px;
+	/* This make oversize image fit the div container */
+	background-size: cover;
+	/* This decide which part of the oversize image to show */
+	background-position: 0% 70%;
+	opacity: 0.8;
+	/* This three line is flex that position the text to center */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.blackbg-text {
+	font-size: 32px;
+	letter-spacing: 10px;
+	padding: 15px;
+	background-color: black;
+	color: white;
+}
+
+/* Picture */
+.top-image {
+	background-image: url("../images/top.jpg");
+}
+
+.mid-image {
+	background-image: url("../images/mid.jpg");
+}
+
+.btm-image {
+	background-image: url("../images/btm.jpg");
+}
+
+img {
+	width: 100%;
+}
